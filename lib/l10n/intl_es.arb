@@ -1,3 +1,30 @@
 {
+    "@SPLASH_SCREEN":{},
+    "sSplashScreenComic":"Comic", 
+    "sSplashScreenMagazine":"Magazine" , 
+    "sSplashScreenTradePaperback":"Trade paperback", 
+    "sSplashScreenHardcover":"Hardcover", 
+    "sSplashScreenDigest":"Digest",
+    "sSplashScreenGraphicNovel":"Graphic novel", 
+    "sSplashScreenDigitalComic":"Digital comic" , 
+    "sSplashScreenInfiniteComic": "Infinite comic",
+    "sPlashScreenStaticText": "You can find",
+
+    "@HOME_SCREEN":{},
+    "sHomehScreenFilterBy":"Filtrar por:",
+    "sHomehScreenTitle":"Marvel App",
+    "sHomehScreenNoInformationAvailable":"No hay información disposible",
+
+    "@DESCRIPTION_SCREEN":{},
+    "sDescriptionScreenNoDescription":"Este comic no tiene una descripción",
+    "sDescriptionScreenPrintPrice" : "Valor en impreso",
+    "sDescriptionScreenDigitalPurchasePrice" : "Valor en digital",
+    "sDescriptionScreenLastUpdateDate": "Útlima actualizacion: {to}",
+    "sDescriptionScreenDescription": "Descripción",
+    "sDescriptionScreenComicStories": "Historias",
+    "sDescriptionScreenComicCreators": "Creadores",
+
+    "@CREATOR_DESCRIPTION_SCREEN":{},
+    "sCreatorDescriptionScreenInfo":"Estos son los cómics en los cuales ha colaborado este autor:"
     
 }

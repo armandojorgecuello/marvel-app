@@ -1,5 +1,9 @@
 
 const double kDimens0 = 0.0;
+const double kDimens01 = 0.1;
+const double kDimens02 = 0.2;
+const double kDimens03 = 0.3;
+const double kDimens04 = 0.4;
 const double kDimens1 = 1.0;
 const double kDimens2 = 2.0;
 const double kDimens3 = 3.0;
@@ -36,5 +40,10 @@ const double kDimens35 = 35.0;
 const double kDimens36 = 36.0;
 const double kDimens37 = 37.0;
 const double kDimens38 = 38.0;
+const double kDimens40 = 40.0;
+const double kDimens50 = 50.0;
+const double kDimens70 = 70.0;
+const double kDimens80 = 80.0;
+const double kDimens90 = 90.0;
 const double kDimens150 = 150.0;
 const double kDimens200 = 200.0;
