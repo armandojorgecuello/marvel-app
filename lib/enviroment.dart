@@ -8,5 +8,6 @@ class Enviroment {
   static String get fileName => kReleaseMode ? '.env.production' : '.env.development';
   static String get publicAPIKey => dotenv.env['PUBLICAPIKEY'] ?? kEmptyString;
   static String get privateAPIKey => dotenv.env['PRIVATEKEY'] ?? kEmptyString;
+  static String get marvelAPIHost => dotenv.env['MARVELAPIHOST'] ?? kEmptyString;
 
 }

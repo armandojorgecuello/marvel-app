@@ -20,6 +20,46 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'es';
 
+  static String m0(to) => "Útlima actualizacion: ${to}";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{};
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "sCreatorDescriptionScreenInfo": MessageLookupByLibrary.simpleMessage(
+            "Estos son los cómics en los cuales ha colaborado este autor:"),
+        "sDescriptionScreenComicCreators":
+            MessageLookupByLibrary.simpleMessage("Creadores"),
+        "sDescriptionScreenComicStories":
+            MessageLookupByLibrary.simpleMessage("Historias"),
+        "sDescriptionScreenDescription":
+            MessageLookupByLibrary.simpleMessage("Descripción"),
+        "sDescriptionScreenDigitalPurchasePrice":
+            MessageLookupByLibrary.simpleMessage("Valor en digital"),
+        "sDescriptionScreenLastUpdateDate": m0,
+        "sDescriptionScreenNoDescription": MessageLookupByLibrary.simpleMessage(
+            "Este comic no tiene una descripción"),
+        "sDescriptionScreenPrintPrice":
+            MessageLookupByLibrary.simpleMessage("Valor en impreso"),
+        "sHomehScreenFilterBy":
+            MessageLookupByLibrary.simpleMessage("Filtrar por:"),
+        "sHomehScreenNoInformationAvailable":
+            MessageLookupByLibrary.simpleMessage(
+                "No hay información disposible"),
+        "sHomehScreenTitle": MessageLookupByLibrary.simpleMessage("Marvel App"),
+        "sPlashScreenStaticText":
+            MessageLookupByLibrary.simpleMessage("You can find"),
+        "sSplashScreenComic": MessageLookupByLibrary.simpleMessage("Comic"),
+        "sSplashScreenDigest": MessageLookupByLibrary.simpleMessage("Digest"),
+        "sSplashScreenDigitalComic":
+            MessageLookupByLibrary.simpleMessage("Digital comic"),
+        "sSplashScreenGraphicNovel":
+            MessageLookupByLibrary.simpleMessage("Graphic novel"),
+        "sSplashScreenHardcover":
+            MessageLookupByLibrary.simpleMessage("Hardcover"),
+        "sSplashScreenInfiniteComic":
+            MessageLookupByLibrary.simpleMessage("Infinite comic"),
+        "sSplashScreenMagazine":
+            MessageLookupByLibrary.simpleMessage("Magazine"),
+        "sSplashScreenTradePaperback":
+            MessageLookupByLibrary.simpleMessage("Trade paperback")
+      };
 }
